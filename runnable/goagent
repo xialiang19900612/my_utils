@@ -1,1 +1,1 @@
-/usr/bin/python   home/liang/Dropbox/goagent/goagent-goagent-ace28a0/local/proxy.py &>/tmp/goagent.log
+/usr/bin/python   /home/liang/Dropbox/goagent/goagent-goagent-ace28a0/local/proxy.py &>>/tmp/goagent.log
