@@ -11,4 +11,5 @@ alias l='ls -CF'
 alias 'psaux=sl -e'
 alias tmux='tmux -2'
 alias sysstat='dstat -cdlmnpsy'
+alias search_zombie='ps -A -ostat,ppid,pid,cmd | grep -e "^[Zz]"'
 linuxlogo -L random
