@@ -1,5 +1,4 @@
 unalias sl
-unalias l
 
 alias cmus='. /home/liang/.cmus/cmus'
 alias chrome='chromium-browser 1>/dev/null 2>&1 &'
