@@ -1,0 +1,9 @@
+#!/bin/sh
+#to ensure this script called by anacron(run_parts) normally,
+#do NOT append the '.sh' postfix!!
+#(the 'run_parts' command has some problem with trigger scripts with name formatted with *.sh )
+date=`date -I`; 
+# backup home
+tar -cjf /backup/liang_backup$date.tar.bz2 /home/liang
+# romove old data 
+find /backup -type f -mtime +7 -exec rm -f {} \;
