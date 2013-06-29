@@ -127,3 +127,5 @@ PATH=$PATH:$HOME/bin
 ### chsdir finish. ###
 alias sduo='sl -e'
 alias cmusplaying='ll /proc/$(pgrep cmus)/fd|grep Music|sed 's/[[:space:]]/'\\n'/g'|tail -n1'
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
