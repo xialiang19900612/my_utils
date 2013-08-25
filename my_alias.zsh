@@ -1,7 +1,6 @@
 unalias sl
 
 alias cmus='. /home/liang/.cmus/cmus'
-alias chrome='chromium-browser 1>/dev/null 2>&1 &'
 alias cmus='. /home/liang/.cmus/cmus'
 alias sduo='sl -e'
 alias cmusplaying='ll /proc/$(pgrep cmus)/fd|sed "s/->/\n/g"|tail -n1'
